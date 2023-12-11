@@ -1,0 +1,40 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #88AB8E;
+}
+
+.cartas{
+    height: 30vh;
+    width: 15vw;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+}
+
+main{
+    align-items: center;
+    background-color: #AFC8AD;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: minmax(auto);
+    height: calc(100vh - 50px);
+    justify-items: center;
+    width: 80%;
+}
